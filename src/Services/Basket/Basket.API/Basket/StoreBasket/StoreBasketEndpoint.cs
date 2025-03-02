@@ -4,7 +4,7 @@ using Basket.API.Basket.GetBasket;
 namespace Basket.API.Basket.StoreBasket;
 
 public record StoreBasketRequest(ShoppingCart Cart);
-public record StoreBasketResponse(bool Username);
+public record StoreBasketResponse(string Username);
 
 public class StoreBasketEndpoint : ICarterModule
 {
